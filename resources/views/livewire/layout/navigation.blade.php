@@ -24,14 +24,20 @@ new class extends Component
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}" wire:navigate>
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
+                        <!-- SVG de gráfico de barras -->
+                        <div class="w-10 h-10 mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#5185A6" class="w-full h-full">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7 13v5M11 9v9M15 5v13M19 11v7" />
+                            </svg>
+                        </div>
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" wire:navigate>
-                        {{ __('Dashboard') }}
+                        {{ __('Painel') }}
                     </x-nav-link>
                 </div>
             </div>

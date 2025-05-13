@@ -18,7 +18,13 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
             <div>
                 <a href="/" wire:navigate>
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                    <!-- SVG de gráfico de barras -->
+                    <div class="w-20 h-20 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#5185A6" class="w-full h-full">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7 13v5M11 9v9M15 5v13M19 11v7" />
+                        </svg>
+                    </div>
                 </a>
             </div>
 
