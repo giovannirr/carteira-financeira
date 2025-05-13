@@ -55,7 +55,9 @@ Aplicação desenvolvida em Laravel para controle de carteira digital, com funci
 
 7. Compile os assets:
 
-- npm run dev
+- npm run dev (Para desenvolvimento)
+
+- npm run build (Para dprodução)
 
 
 Execução local
