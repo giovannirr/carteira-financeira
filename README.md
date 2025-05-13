@@ -60,9 +60,9 @@ Aplicação desenvolvida em Laravel para controle de carteira digital, com funci
 
 Execução local
 
-Execute o servidor: php artisan serve
+Execute o servidor: 
 
-Acesse em: http://localhost:8000
+- php artisan serve
 
 
 Usuário Administrador de teste (criados pelo seeder)
